@@ -1,0 +1,89 @@
+/*Общие стили*/
+body {
+    background-color: rgb(152, 158, 158);
+    
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear { 
+    clear: both;
+}
+/*Logo*/
+.header_logo {
+    width: 180px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 75px; 
+    text-align: center;
+}
+
+.header_logo a {
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 40px;
+}
+
+.header_logo:hover {
+    background-color: rgb(60, 63, 63);
+    color: rgb(255, 255, 255);
+    border:1px white solid;
+    transition: 1s;
+}
+/*Form*/
+.login_form {
+    width: 320px;
+    height: 130px;
+    background-color: rgb(202, 193, 193);
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login_form input, label {
+    margin: auto;
+    outline: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.login_form input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.login_form label {
+    color:rgb(53, 50, 50);
+    font-size: 18px
+}
+
+/*Bottom Login*/
+.bottom_login {
+    text-align: center;
+    margin-top: 15px;
+    height: 40px;
+}
+
+.bottom_login a {
+    font-size: 20px;
+    color: black;
+    text-decoration-line: none;
+    padding-right: 30px;
+}
+
+.bottom_login a:hover {
+    color: honeydew;
+}

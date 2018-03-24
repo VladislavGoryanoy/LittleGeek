@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(114, 114, 114);
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+    color: black;
+    background-color: rgb(218, 192, 192);
+    width: 400px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.line {
+    display: inline;
+}
+
+.line img {
+    padding: 20px;
+    width: 29%;
+    height: 150px;
+}
+
+.block {
+
+}
+
+.block img {
+    display:block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.twoXtwo {
+    display:inline-block;
+}
+
+.twoXtwo img {
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    
+
+}

@@ -1,0 +1,181 @@
+/*Общие стили*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body,
+.wrapper {
+    height:100%;
+  }
+
+.content {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+}
+
+body {
+    background-color: rgb(114, 114, 114);
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear { 
+    clear: both;
+}
+.text-center {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+::selection { background: rgb(110, 108, 108); color: white;}
+::-moz-selection { background: rgb(110, 108, 108); color: white;}
+
+/*Cтили Header*/
+header {
+    width: calc(100% -20px);
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: 'Limelight', cursive;
+    font-size: 40px;
+    background: linear-gradient(to right,rgb(207, 206, 206),rgb(131, 129, 129));
+}
+                        /*Кнопки Регистрации/Авторизации*/
+.headerbutton {
+    height: 40px;
+    width: 130px;
+    margin-left: 30px;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+.headerbutton:hover {
+    background-color: floralwhite;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+}
+                        /*Лого*/
+.headerlogo {
+    cursor: pointer;
+} 
+
+.headerlogo a {
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+                        /*Поиск*/
+input[type=search].search {
+    width: 175px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    background-color: rgb(219, 219, 219);
+    outline: none;
+    padding: 10px;
+}
+
+input[type=search].search:focus {
+    width: 300px;
+}
+
+.searchimg {
+    height: 40px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+/*Стили Menu*/
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid rgb(0, 0, 0);
+    width: calc(100%-);
+    text-align: center;
+    background-color:rgb(158, 158, 158) ;
+}
+                        /*Ссылки*/
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 20%;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+                        /*Списки*/
+.navbar li { 
+    display: inline; 
+}
+
+/*Стили Footer*/
+footer{
+    width: calc(100% -20px);
+    height: 60px;
+    margin-top: -60px;
+    background-color: rgb(153, 153, 153);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    clear: both;
+}
+                        /*Инфа*/
+.footerinf {
+    padding-top: 25px;
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+                        /*Кнопки соц.сетей*/
+.footersocial{
+    padding-right: 20px;
+    padding-top: 15px;
+    
+}
+
+.footersocial:hover {
+    filter: invert(100%);
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+

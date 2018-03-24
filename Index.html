@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Limelight" rel="stylesheet">
+    <link href="img/Title.png" rel="shortcut icon" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+    <div class="wrapper">
+<!--Header-->
+        <header>
+            <div class="headerlogo left">
+                <a href="Index.html"> 
+                    <img src="img/logo.jpeg" alt="Logo">
+                    <span>LittleGeek</span>
+                </a>
+            </div>
+            <div>
+                <a href="SignIn.html">
+                    <button class="headerbutton right">Sign in</button>
+                </a>
+                
+                <a href="SignUp.html">
+                    <button class="headerbutton right">Sign up</button>
+                </a>
+            </div>
+            <div>
+                <input type="search" name="search" class="search right" placeholder="Search...">
+                <img src="img/search.png" alt="search" class="searchimg right">
+            </div>
+        </header>
+<!--Navbar-->
+        <nav class="navbar"> 
+            <ul class="navbar" item-width="100%">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Images.html">Images</a></li>
+                <li><a href="Table.html">Table</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </nav>
+<!--Content-->
+    <div class="content">
+        <div class="announc">
+            <article class="left">
+                <img src="img/news1.jpeg" alt="Android">
+                <p>Пользователей Android предупредили о вирусе-перехватчике</p>
+                <a href="#news1" class="right">Читать...</a>
+            </article>
+
+            <article class="left">
+                    <img src="img/news2.jpg" alt="Microspft" class="img_announc">
+                    <p class="p_announc">«Пора похоронить это». Пользователей разозлили изменения в Windows</p>
+                    <a href="#news2" class="right">Читать...</a>
+            </article>
+
+            <article class="left">
+                <img src="img/news3.jpeg" alt="Safari">
+                <p>В Safari нашли еще несколько уязвимостей</p>
+                <a href="#news3" class="right">Читать...</a>
+            </article>
+        </div>
+        <div class="news left">
+            <article>
+                <a id="news1"><h1>Пользователей Android предупредили о вирусе-перехватчике</h1>
+                <div>
+                    <p>Компания Symantec обнаружила новую версию вируса Fakebank: теперь он может перехватывать звонки в банки пользователей Android</p> 
+                    <p>Действие вредоносной программы распространяется как на исходящие, так и на входящие звонки. Когда пользователь звонит в банк, вызов перенаправляется на номер злоумышленников, которые могут распорядиться полученными данными в мошеннических целях. Исходящие вызовы злоумышленников вирус маскирует под звонок из банка.</p>
+                    <p>Вирус распространяется через приложения. На данный момент от него более всего пострадали клиенты корейских банков. Чтобы не подхватить вирус, в Symantec советуют регулярно обновлять программное обеспечение телефона и не загружать приложения из непроверенных источников.</p>
+                    <img src="https://www.revealnews.org/wp-content/uploads/2016/12/5579139394_6c31cd2e51_b.jpg" alt="Android">
+                </div>
+            </article>
+            <article>
+                <a id="news2"><h1>«Пора похоронить это». Пользователей разозлили изменения в Windows</h1>
+                <div class="right"> 
+                    <p><img src="img/news2.jpg" alt="Microsoft" class="left news_img">В будущей версии Windows 10, которая сейчас находится в режиме тестирования, появится одно важное изменение. Как сообщается в блоге Microsoft, ссылки, находящиеся в приложении Windows Mail, будут в обязательном порядке открываться в браузере Edge.</p>
+                    <p>Это будет происходить независимо от того, какой браузер установлен в системе по умолчанию. Изменить браузер для открытия ссылок из Windows Mail будет невозможно.</p>
+                    <p>Отметим, что несколько лет назад похожий подход в отношении браузера Internet Explorer привел к антимонопольному разбирательству в Европе. В результате Microsoft обязали дать пользователям выбирать браузер по умолчанию.</p>
+                    <p>Многие пользователи Windows оказались расстроены нововведением, о чем сообщили в соцсетях.</p>
+                    <blockquote>"Мне не нужен Edge! Google Chrome меня вполне устраивает!"</blockquote> 
+                    <blockquote> "Я подозреваю, что людей, использующих Windows Mail, станет заметно меньше".</blockquote> 
+                    <blockquote> "Настало время похоронить Mail вслед за Edge".</blockquote> 
+                    <p>По данным StatCounter, мировая доля браузера Edge на сегодняшний день составляет около 1,7 процента (вместе с Internet Explorer — около 5 процентов). Лидер рынка — Google Chrome с 57,5 процента.</p>
+                </div>        
+            </article>
+            <article>
+                <a id="news3"><h1>В Safari нашли еще несколько уязвимостей</h1>
+                <img src="img/news3.jpeg" alt="Safari" class="left news_img">
+                <p>В Safari нашли еще несколько уязвимостейВ рамках проведения ежегодной конференции и конкурса для хакеров Pwn2Own, взломщикам удалось найти еще несколько уязвимостей в браузере Safari.</p>
+                <p>Вчера главный приз в размере $65 000 отправился Сэмюэлю Гроссу из команды phoenhex. Парень сумел обойти защиту десктопной версии браузера, а заодно взломать сенсорную панель TouchBar.</p>
+                <p>Спустя сутки трое хакеров обнаружили еще один недочет в безопасности браузера. В результате, выходцы из команды MWR Labs получили призовые в размере $55 000.</p>
+                <p>А вот представители группы Ret2 Systems пробовали взломать браузер с помощью ядра системы macOS. Увы, ребята не успели сделать это за конкурсное время, но решили не останавливать останавливать начатое и взломали браузер уже за рамками состязания.</p>
+                <p>Pwn2Own проводится с 2007 года, открывая возможность талантливым хакерам и программистам со всего мира побороться за внушительные денежные призы и показать свое мастерство по взлому ПО и устройств.</p>
+            </article>
+        </div>
+    </div>
+<!--Footer-->
+        <footer>
+            <span class="left footerinf">&copy; 2018 VladislavGoryanoy, LittleGeek.</span>
+            <div>
+                <img src="img/instagram.png" alt="instagram" class="right footersocial" title="Instagram">
+                <img src="img/twitter.png" alt="twitter" class="right footersocial" title="Twitter">
+                <img src="img/facebook.png" alt="facebook" class="right footersocial" title="Facebook">
+                <img src="img/google_plus.png" alt="google+" class="right footersocial" title="Google+">
+            </div>
+        </footer>
+</body>
+</html>
